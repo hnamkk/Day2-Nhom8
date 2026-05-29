@@ -1,18 +1,18 @@
 # 01 — Individual Problem Scan
-> Bối cảnh: Sinh viên làm đồ án tốt nghiệp
+> Case: Sinh viên làm báo cáo Dự án
+
+Nhân vật: Nam, sinh viên năm cuối đang làm báo cáo Dự án với nhóm 3 người, phải báo cáo tiến độ với giảng viên hướng dẫn (GVHD) hàng tuần và tổng kết báo cáo cuối cùng.
 
 ---
 
 ## Bảng scan rộng (11 problems)
-
-> #2 (Tổng hợp chương báo cáo từ file Word) đã được bỏ vì trùng bản chất với #5 — #5 bao trùm và có dấu hiệu thật mạnh hơn.
 
 | # | Lăng kính | Problem quan sát được | Ai đang đau? | Dấu hiệu thật |
 |---|---|---|---|---|
 | 1 | Lặp lại | Họp nhóm 15-20p báo cáo tiến độ mỗi tuần nhưng không ai tổng hợp tiến độ | Cả nhóm | Tuần sau hỏi lại, không nhớ ai làm gì |
 | 2 | Lặp lại | Cập nhật tiến độ cho GVHD chậm vì phải gom thông tin từ nhiều nguồn (Zalo, Drive, GitHub, Docs) | Nhóm trưởng | Mở nhiều tab, không có cái nhìn tổng |
 | 3 | Tốn thời gian | Đọc 10-15 paper để tìm 2-3 câu trích dẫn cho phần nền tảng lý thuyết | Người viết báo cáo | Mất 4-6 tiếng, phần lớn paper không dùng được |
-| 4 | Tốn thời gian | Viết báo cáo đồ án 50-80 trang từ nhiều file rời rạc của các thành viên | Người viết báo cáo | Mất 1-2 ngày, nội dung trùng lặp giữa các chương |
+| 4 | Tốn thời gian | Viết báo cáo Dự án 50-80 trang từ nhiều file rời rạc của các thành viên | Người viết báo cáo | Mất 1-2 ngày, nội dung trùng lặp giữa các chương |
 | 5 | Tốn thời gian | Làm slide bảo vệ từ báo cáo dài, phải chọn lọc và thiết kế lại | Người thuyết trình | Mất 3-4 giờ cho 10 slide, không biết cắt gì |
 | 6 | AI có thể tốt hơn | Phân rã task mơ hồ từ GVHD thành task con có deadline | Cả nhóm | Mất 1-2 giờ thảo luận, vẫn bỏ sót task |
 | 7 | AI có thể tốt hơn | Ghi lại và tổng hợp góp ý của GVHD sau buổi meeting | Cả nhóm | Sót ý, phải hỏi lại thầy lần sau |
@@ -33,13 +33,13 @@
 
 ---
 
-## Problem Card #1 — Viết báo cáo đồ án từ file rời rạc
+## Problem Card #1 — Viết báo cáo Dự án từ file rời rạc
 
 **Problem 1 câu:**
-Người viết chính mất 1-2 ngày tổng hợp báo cáo đồ án 50-80 trang từ nhiều file note, kết quả thí nghiệm và chương rời rạc của các thành viên, trong đó bước gom và viết lại nội dung trùng lặp tốn nhiều nhất.
+Người viết báo cáo mất 1-2 ngày tổng hợp báo cáo Dự án 50-80 trang từ nhiều file doc, kết quả thí nghiệm và chương rời rạc của các thành viên, trong đó bước gom và viết lại nội dung trùng lặp tốn nhiều nhất.
 
 **Actor:**
-Người viết chính trong nhóm đồ án tốt nghiệp (thường là nhóm trưởng hoặc người phụ trách chương tổng hợp).
+Người viết báo cáo.
 
 **Thời điểm / bối cảnh:**
 Cuối mỗi sprint hoặc trước deadline nộp báo cáo tiến độ / báo cáo cuối.
@@ -59,7 +59,7 @@ Cuối mỗi sprint hoặc trước deadline nộp báo cáo tiến độ / báo
 Bước 5 — viết lại để nối mạch giữa các phần mất nhiều nhất vì mỗi người viết một văn phong, thiếu transition và hay bị trùng nội dung.
 
 **Impact:**
-Mất 1-2 ngày/lần cho 1 người. Nếu nhóm 4 người thì người viết chính chịu toàn bộ gánh nặng. Báo cáo hay nộp trễ hoặc chất lượng thấp vì không còn thời gian review kỹ.
+Mất 1-2 ngày/lần cho 1 người. Nếu nhóm 3 người thì người viết chính chịu rất nhiều gánh nặng. Báo cáo hay nộp trễ hoặc chất lượng thấp vì không còn thời gian review kỹ.
 
 **Success metric:**
 Giảm thời gian tổng hợp từ 1-2 ngày xuống dưới 4 tiếng; số lần GVHD yêu cầu sửa lại format/nội dung trùng không tăng.
@@ -106,10 +106,10 @@ Fallback: AI draft tệ → người viết tự viết lại đoạn nối.
 Sau mỗi buổi meeting với GVHD, cả nhóm hay sót ý vì không ai ghi lại đầy đủ trong lúc thầy/cô nói, dẫn đến phải hỏi lại hoặc sửa sai ở lần sau.
 
 **Actor:**
-Cả nhóm đồ án, đặc biệt là nhóm trưởng chịu trách nhiệm follow-up.
+Cả nhóm, đặc biệt là nhóm trưởng chịu trách nhiệm follow-up.
 
 **Thời điểm / bối cảnh:**
-Sau mỗi buổi gặp GVHD (thường 1-2 lần/tuần trong giai đoạn làm đồ án).
+Sau mỗi buổi gặp GVHD.
 
 **Current workflow:**
 ```
@@ -163,16 +163,16 @@ Fallback: Không ghi âm được → 1 người ghi chú chính + AI hỗ trợ
 
 ---
 
-## Problem Card #3 — Đọc paper tìm trích dẫn cho tổng quan tài liệu
+## Problem Card #3 — Đọc paper tìm trích dẫn cho nền tảng lý thuyết
 
 **Problem 1 câu:**
-Người viết báo cáo mất 4-6 tiếng đọc 10-15 paper để tìm 2-3 câu trích dẫn phù hợp cho phần tổng quan tài liệu, vì không biết paper nào liên quan trước khi đọc toàn bộ.
+Người viết báo cáo mất 4-6 tiếng đọc 10-15 paper để tìm 2-3 câu trích dẫn phù hợp cho phần nền tảng lý thuyết, vì không biết paper nào liên quan trước khi đọc toàn bộ.
 
 **Actor:**
-Thành viên phụ trách viết phần tổng quan tài liệu / related work trong báo cáo đồ án.
+Thành viên phụ trách viết phần tổng quan tài liệu / related work trong báo cáo Dự án.
 
 **Thời điểm / bối cảnh:**
-Giai đoạn đầu đồ án khi viết chương 1-2, hoặc khi GVHD yêu cầu bổ sung tài liệu tham khảo.
+Giai đoạn đầu báo cáo khi viết chương 1-2, hoặc khi GVHD yêu cầu bổ sung tài liệu tham khảo.
 
 **Current workflow:**
 ```
@@ -189,7 +189,7 @@ Giai đoạn đầu đồ án khi viết chương 1-2, hoặc khi GVHD yêu cầ
 Bước 4 — đọc toàn bộ paper để tìm đúng đoạn có thể trích dẫn, trong khi phần lớn paper không dùng được sau khi đọc xong.
 
 **Impact:**
-Mất 4-6 tiếng cho việc có thể rút ngắn. Giai đoạn đầu đồ án bị chậm. Nhiều sinh viên bỏ qua bước này dẫn đến trích dẫn thiếu hoặc sai.
+Mất 4-6 tiếng cho việc có thể rút ngắn. Giai đoạn đầu báo cáo bị chậm. Nhiều sinh viên bỏ qua bước này dẫn đến trích dẫn thiếu hoặc sai.
 
 **Success metric:**
 Giảm thời gian từ tìm đến có danh sách trích dẫn từ 4-6 tiếng xuống dưới 1 tiếng; không giảm chất lượng trích dẫn (GVHD không yêu cầu bổ sung thêm).
@@ -227,7 +227,3 @@ FUTURE STATE — dưới 1 tiếng
 
 Fallback: AI tóm tắt sai trọng tâm → người viết đọc lại abstract + conclusion thủ công.
 ```
-
----
-
-*01-individual-problem-scan — Day 02 Lab*
