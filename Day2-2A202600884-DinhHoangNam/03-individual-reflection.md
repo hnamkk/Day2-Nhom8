@@ -9,7 +9,7 @@
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng |
 |---|---|---|
-| Scan cá nhân | Scan 11 problems từ trải nghiệm làm báo cáo Dự án, đa dạng 4 lăng kính | Nhóm có thêm cluster B (Học tập) với 3 candidates rõ ràng |
+| Scan cá nhân | Scan 13 problems từ trải nghiệm làm báo cáo Dự án, đa dạng 4 lăng kính | Nhóm có thêm cluster B (Học tập) với 3 candidates rõ ràng |
 | Pitch Problem Card | Pitch "Viết báo cáo Dự án từ file rời rạc" với workflow 7 bước và baseline 1-2 ngày | Candidate vào shortlist, điểm ngang với problem ăn uống (34/35) |
 | Gom trùng / cluster | Đề xuất tạo cluster B (Học tập) để tách khỏi cluster Đời sống | Nhóm có thêm clusters, tránh bỏ sót domain quan trọng |
 | Chọn candidate problem | Đồng thuận chọn problem ăn uống thay vì problem Dự án của mình | Thực hành được tinh thần "problem first": bài tốt hơn không phải bài của mình |
