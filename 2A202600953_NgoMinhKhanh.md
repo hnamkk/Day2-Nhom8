@@ -1,4 +1,4 @@
-# Ví dụ bản nộp — Smart Wake-up System dựa trên chu kỳ giấc ngủ
+# Smart Wake-up System dựa trên chu kỳ giấc ngủ
 
 > Case: Smart Wake-up System / AI Alarm dựa trên trạng thái giấc ngủ realtime.
 
