@@ -6,6 +6,7 @@ Case thực tế: **Chuyển đổi quy trình thiết kế xe từ phác thảo
 Hệ thống scan 13 problems thực tế trong quy trình R&D và vận hành thiết kế phương tiện:
 
 
+
 | # | Lăng kính | Problem quan sát được | Ai đang đau? | Dấu hiệu thật |
 |---|---|---|---|---|
 | 1 | Lặp lại | Khi phát triển model xe mới, kỹ sư phải tra cứu thủ công và copy-paste lại các điểm kỹ thuật cố định (Hardpoints) như: bình xăng, bình điện, gá động cơ từ khung gầm xe cũ sang bản vẽ mới. | Kỹ sư CAD | Mất trên 5 tiếng mỗi khi bắt đầu một dáng xe mới cùng phân khúc. |
